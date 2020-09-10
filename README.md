@@ -1,4 +1,4 @@
-# 作者的话
+# 写作前面
 
 本项目的 GITHUB 开源地址：[https://github.com/wardseptember/notes](https://github.com/wardseptember/notes)
 
