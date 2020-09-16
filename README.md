@@ -81,8 +81,7 @@
 ## GPL v2.0
 [LICENSE](https://github.com/wardseptember/notes/blob/master/LICENSE)
 
-## 捐赠
-![微信收款码](http://wardseptember.club/FmzrIpcySQ5Vho-g9GE9fyygMRtn)
 ## 联系方式
 
 - E-mail : <wardseptember@163.com>
+
