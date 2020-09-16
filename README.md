@@ -15,7 +15,7 @@
 
 * [Gitee Pages](https://wardseptember.gitee.io/mynotes)
 
-同步更新哦测试
+同步更新哦
 
 ---
 
