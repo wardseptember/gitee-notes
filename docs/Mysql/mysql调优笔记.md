@@ -146,8 +146,6 @@ log_error = mysql.err
 show variables like '%log_err%';
 ```
 
-![image](https://cdn.nlark.com/yuque/0/2019/png/223463/1564987410576-65d4d479-e918-4669-b9af-881706c0810d.png)
-
 另外，我们还可以将 MySQL 的错误日志配置到系统日志文件中。这种配置方式意义不大，了解一下吧。
 
 ```
@@ -198,11 +196,11 @@ syslog_tag = stock#mysqld_stock
 
 那么，通过查询日志一般用来做什么呢？通用查询日志一般用来做审计用的，用于记录 MySQL 的所有操作，可以追踪用户的登录信息、操作信息等。比如公司有一个财务工资库，只有一个人有权限，这个时候就需要使用审计功能了。
 
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/223463/1587008362707-f28ac32a-b9e5-4cfc-965c-51de6011df6d.png)
+![](https://gitee.com/wardseptember/images/raw/master/imgs/20200927194525.png)
 
 开启通用查询日志后，MySQL 性能损耗太大，MySQL 官方企业版提供了 MySQL Enterprise Audit 插件，这个是需要收费的。Audit 插件是异步记录日志的，所以性能比较高，不会像通用查询日志这样性能损耗比较大。
 
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/223463/1586953110289-357362bd-aa1d-48ec-9c27-0e1249464182.png)
+![](https://gitee.com/wardseptember/images/raw/master/imgs/20200927194601.png)
 
 MariaDB 官方提供了 Audit 插件，是免费的，可以兼容 MySQL。参考地址：
 
@@ -238,11 +236,11 @@ show master logs;
 
 MySQL 的配置文件 my.cnf 中有一个参数 datadir，配置了 MySQL 数据文件的存放位置，如下图所示。
 
-![image](https://cdn.nlark.com/yuque/0/2019/png/223463/1564995426854-e9e9719c-a9fe-4919-abac-79764fd5770b.png)
+![](https://gitee.com/wardseptember/images/raw/master/imgs/20200927194628.png)
 
 比如我们要看 engine 数据库的文件内容，如下图所示。
 
-![image](https://cdn.nlark.com/yuque/0/2019/png/223463/1564995464444-9a1ffd98-cf2f-4aa0-8b9f-5fa2c09823d1.png)
+![](https://gitee.com/wardseptember/images/raw/master/imgs/20200927194719.png)
 
 ibdata1 文件是系统表空间（数据文件）undo 段，文件存放在 datadir 目录下。
 
@@ -511,7 +509,7 @@ VAR 引号不可丢，SQL 优化有诀窍。
 
 # 详细资料下载
 
-* [MySQL高级——思维导图.pdf]()
-* [Mysql高级.mmap]()
-* [Mysql高级详细.pdf]()
+* [MySQL高级——思维导图.pdf](https://gitee.com/wardseptember/mynotes/tree/master/docs/Mysql)
+* [Mysql高级.mmap](https://gitee.com/wardseptember/mynotes/tree/master/docs/Mysql)
+* [Mysql高级详细.pdf](https://gitee.com/wardseptember/mynotes/tree/master/docs/Mysql)
 
