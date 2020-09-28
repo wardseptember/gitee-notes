@@ -2129,8 +2129,6 @@ public class Main {
 }
 ```
 
-
-
 ## HashMap（基于jdk 1.8）
 
 `HashMap`结构图：
